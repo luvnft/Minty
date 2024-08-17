@@ -1,5 +1,5 @@
 import * as dotenv from "dotenv";
-
+require('dotenv').config();
 import { toNano } from "ton-core";
 import { readdir } from "fs/promises";
 
